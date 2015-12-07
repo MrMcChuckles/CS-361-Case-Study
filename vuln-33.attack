@@ -7,10 +7,5 @@ Feature: An SQL Injection attack with Gauntlt Webgoat Vuln. is broken, so I am r
 			"""
 		Then the output should contain:
 			"""
-			987654321
-			2234200065411
-			2435600002222
-			4352209902222
-			123456789
-			333498703333
+			This is a test to ensure failure
 			"""
